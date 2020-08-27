@@ -9,7 +9,7 @@ public class Map extends JPanel {
 
     Map() {
         setBackground(Color.DARK_GRAY);
-    }
+}
 
     void startNewGame(int mode, int fieldSizeX, int fieldSizeY, int winLength) {
         System.out.printf("mode: %d, size: %d, len: %d\n", mode, fieldSizeX, fieldSizeY, winLength);
