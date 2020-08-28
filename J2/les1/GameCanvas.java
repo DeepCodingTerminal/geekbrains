@@ -13,8 +13,9 @@ public class GameCanvas extends JPanel {
     GameCanvas(MainCircles controller) {
         this.controller = controller;
         lastFrameTime = System.nanoTime();
-        setBackground(Color.WHITE);
+        setBackground(Color.LIGHT_GRAY);
     }
+
 
 
 
