@@ -39,6 +39,5 @@ public class GameCanvas extends JPanel {
     public int getTop() { return 0; }
     public int getBottom() { return getHeight() - 1; }
 
-    //fds//
 
 }
